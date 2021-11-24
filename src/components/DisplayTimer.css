@@ -1,0 +1,36 @@
+.timer-input{
+    font-size: 3em;
+    list-style-type: none;
+    display: inline-flex;
+    padding-top: 20%;
+}
+
+li{
+    color: #36454F;
+    font-family: 'Courier New', Courier, monospace;
+}
+.milSec{
+    font-size: .5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .timer-input{
+        font-size: 2rem;
+        list-style-type: none;
+        display: inline-flex;
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timer-input{
+        font-size: 1rem;
+        list-style-type: none;
+        display: inline-flex;
+        padding-top: 20%;
+    }
+    .milSec{
+        font-size: .2rem;
+    }
+}
+  
